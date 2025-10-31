@@ -23,7 +23,7 @@ body {
 
 /* Percobaan 1-4: Layout - Header */
 .header {
-    background: #007acc; /* Warna biru */
+    background: #28aa46; /* Warna hijau baru */
     color: white;
     padding: 15px 0;
     text-align: center;
@@ -43,7 +43,7 @@ body {
 }
 
 .header nav a:hover {
-    background-color: #005f9c; /* Pseudo-class :hover */
+   background-color: #1e7e34; /* Hover hijau gelap */
     border-radius: 5px;
 }
 
@@ -70,17 +70,17 @@ body {
     height: 250px;
     object-fit: cover;
     border-radius: 8px;
-    border: 3px solid #007acc;
+    border: 3px solid #28aa46; /* Border hijau baru */
 }
 
 /* Styling untuk Ikon LinkedIn */
 .links a i {
-    color: #007acc; /* Warna ikon LinkedIn */
+    color: #28aa46; /* Warna ikon LinkedIn hijau baru */
     transition: color 0.3s ease;
 }
 
 .links a:hover i {
-    color: #005f9c; 
+    color: #1e7e34; /* Hover hijau gelap */
 }
 
 
@@ -97,11 +97,11 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-left: 5px solid #007acc;
+    border-left: 5px solid #28aa46; /* Border hijau baru */
 }
 
 .project-card h3, .exp-card h3 {
-    color: #007acc;
+    color: #28aa46; /* Warna judul hijau baru */
     margin-top: 0;
     border-bottom: 1px dashed #ccc;
     padding-bottom: 5px;
@@ -228,4 +228,3 @@ footer {
         margin-bottom: 20px;
     }
 }
-
